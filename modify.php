@@ -8,13 +8,12 @@ $filtered = array(
   'id'=>mysqli_real_escape_string($conn,$sql)
 );
 
-$sql="
-UPDATE profiles
- SET
-    description = '활성화'
+var_dump($sql="
+DELETE from profiles
+
 WHERE
-     id = {$_POST['id']}
-     ";
+     name = '{$_POST['id']}'
+     ");
   echo "다시 서비스를 이용하시려면 재등록해주세요";
 $result = mysqli_query($conn, $sql);
  ?>
