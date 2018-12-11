@@ -10,7 +10,7 @@
       <h2>비활성화를 하게되면 상대방은 당신을 조회할 수 없습니다!</h2>
     </ol>
     <form action="modify.php" method="POST">
-    <p><input type="integer" name="id"placeholder="고유ID"></p>
+    <p><input type="integer" name="id"placeholder="나의 이름"></p>
     <p><input type="submit"></p>
   </form>
   </body>
